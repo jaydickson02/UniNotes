@@ -15,5 +15,5 @@ jobs:
         destination-username: 'jaydickson02'
         destination-repository: 'Notes'
         destination-branch: 'gh-pages'
-        destination-directory: 'collections/_AerospaceEngineering'
+        destination-directory: 'collections'
         commit-email: 'jaydickson02@gmail.com'
