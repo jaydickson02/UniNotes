@@ -14,10 +14,10 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_folder: 'AerospaceEngineering'
+        source_folder: '_AerospaceEngineering'
         destination_repo: 'jaydickson02/Notes'
         destination_branch: 'gh-pages'
-        destination_folder: 'collections/_AerospaceEngineering'
+        destination_folder: 'collections'
         user_email: 'jaydickson02@gmail.com'
         user_name: 'jaydickson02'
         commit_msg: '[GHA] Update the files.'
