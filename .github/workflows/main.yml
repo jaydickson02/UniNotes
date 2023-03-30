@@ -6,18 +6,13 @@ jobs:
   copy-file:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Pushes notes folder
-      uses: datalbry/copy_folder_to_another_repo_action@1.0.0
+    - name: Push generated webpage to another repository
+      uses: nkoppel/push-files-to-another-repository
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_folder: '_AerospaceEngineering'
-        destination_repo: 'jaydickson02/Notes'
-        destination_branch: 'gh-pages'
-        destination_folder: 'collections'
-        user_email: 'jaydickson02@gmail.com'
-        user_name: 'jaydickson02'
-        commit_msg: '[GHA] Update the files.'
+        source-files: 'Aerospace Engineering/'
+        destination-username: 'jaydickson02'
+        destination-repository: 'jaydickson02/Notes'
+        destination-directory: 'collections/_AerospaceEngineering'
+        commit-email: 'jaydickson02@gmail.com'
