@@ -6,12 +6,12 @@ jobs:
   copy-file:
     runs-on: ubuntu-latest
     steps:
-    - name: Push generated webpage to another repository
+    - name: Push eng notes to notes website
       uses: nkoppel/push-files-to-another-repository@v1.1.1
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-files: 'AerospaceEngineering/'
+        source-files: '_AerospaceEngineering/'
         destination-username: 'jaydickson02'
         destination-repository: 'Notes'
         destination-branch: 'gh-pages'
