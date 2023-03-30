@@ -1,0 +1,22 @@
+name: Push File
+
+on: push
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Pushes notes folder
+      uses: datalbry/copy_folder_to_another_repo_action@1.0.0
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_folder: 'Aerospace Engineering'
+        destination_repo: 'jaydickson02/Notes'
+        destination_folder: 'collections/_AerospaceEngineering'
+        user_email: 'jaydickson02@gmail.com'
+        user_name: 'jaydickson02'
+        commit_msg: '[GHA] Update the files.'
