@@ -16,6 +16,7 @@ jobs:
       with:
         source_folder: 'Aerospace Engineering'
         destination_repo: 'jaydickson02/Notes'
+        destination_branch: 'gh-pages'
         destination_folder: 'collections/_AerospaceEngineering'
         user_email: 'jaydickson02@gmail.com'
         user_name: 'jaydickson02'
