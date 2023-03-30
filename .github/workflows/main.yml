@@ -11,7 +11,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-files: '_AerospaceEngineering/'
+        source-files: '_AerospaceEngineering/*'
         destination-username: 'jaydickson02'
         destination-repository: 'Notes'
         destination-branch: 'gh-pages'
