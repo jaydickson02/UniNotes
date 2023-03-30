@@ -13,6 +13,6 @@ jobs:
       with:
         source-files: 'Aerospace Engineering/'
         destination-username: 'jaydickson02'
-        destination-repository: 'jaydickson02/Notes'
+        destination-repository: 'Notes'
         destination-directory: 'collections/_AerospaceEngineering'
         commit-email: 'jaydickson02@gmail.com'
