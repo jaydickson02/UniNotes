@@ -3,21 +3,9 @@ name: Push File
 on: push
 
 jobs:
-  copy-file:
+  copy-assignments:
     runs-on: ubuntu-latest
     steps:
-    - name: Push eng notes to notes website
-      uses: nkoppel/push-files-to-another-repository@v1.1.1
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      with:
-        source-files: 'AerospaceEngineering/*'
-        destination-username: 'jaydickson02'
-        destination-repository: 'Notes'
-        destination-branch: 'gh-pages'
-        destination-directory: 'collections/_AerospaceEngineering'
-        commit-email: 'jaydickson02@gmail.com'
-        
     - name: Push assignments to notes website
       uses: nkoppel/push-files-to-another-repository@v1.1.1
       env:
@@ -29,5 +17,20 @@ jobs:
         destination-branch: 'gh-pages'
         destination-directory: 'collections/_Assignments'
         commit-email: 'jaydickson02@gmail.com'
+  copy-notes:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Push eng notes to notes website
+       uses: nkoppel/push-files-to-another-repository@v1.1.1
+       env:
+         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+       with:
+         source-files: 'AerospaceEngineering/*'
+         destination-username: 'jaydickson02'
+         destination-repository: 'Notes'
+         destination-branch: 'gh-pages'
+         destination-directory: 'collections/_AerospaceEngineering'
+         commit-email: 'jaydickson02@gmail.com'
+        
         
     
