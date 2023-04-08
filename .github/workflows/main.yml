@@ -17,3 +17,17 @@ jobs:
         destination-branch: 'gh-pages'
         destination-directory: 'collections/_AerospaceEngineering'
         commit-email: 'jaydickson02@gmail.com'
+        
+    - name: Push assignments to notes website
+      uses: nkoppel/push-files-to-another-repository@v1.1.1
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source-files: 'Assignments/*'
+        destination-username: 'jaydickson02'
+        destination-repository: 'Notes'
+        destination-branch: 'gh-pages'
+        destination-directory: 'collections/_Assignments'
+        commit-email: 'jaydickson02@gmail.com'
+        
+    
