@@ -73,3 +73,4 @@ Overall, building a system for managing satellite trajectories requires careful 
     - The inputs and outputs are relativly simple in that all the movements are based on physics and really this is an optimisation problem
     - The ML should be supported by other physics software to perform pre and post work on the data so that the ML does not need to account for the actuall physics or manouver calulations
         - Give this the ML should be trained to output set manouvers and input organised trajectory data
+
