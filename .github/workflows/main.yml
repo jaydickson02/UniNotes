@@ -15,7 +15,7 @@ jobs:
         destination-username: 'jaydickson02'
         destination-repository: 'Notes'
         destination-branch: 'gh-pages'
-        destination-directory: 'collections/_Assignments'
+        destination-directory: 'assets/projects'
         commit-email: 'jaydickson02@gmail.com'
   copy-notes:
     runs-on: ubuntu-latest
