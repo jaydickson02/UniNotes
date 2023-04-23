@@ -25,14 +25,14 @@ Then: $v = ∫e^x$ and ${du\over dx} = u'$
 
 *L.I.A.T.E*
 
-L: logs (*ln*(*x*), *ln*(*x*2), log10(*x*))
+L: logs ($\log{x}$, $\log{2x}$, $\log_{10}{x}$)
 
-I: inverse trig (*tan* − 1(*x*), *arcsin*(2*x*))
+I: inverse trig ($\arctan{x}$, $\arcsin{2x}$)
 
-A: Algebraic ($x^2, (x-1), x^6, \sqrt{x}$)
+A: Algebraic ($x^2$, $(x-1)$, $x^6$, $\sqrt{x}$)
 
-T: Trig Functions (*sin*(*x*), *cos*(*x*3))
+T: Trig Functions ($\sin{x}$, $\cos{3x}$)
 
-E: Exponentials (*ex*, *e* − 3*x*, *ex*2 + 4)
+E: Exponentials ($ex$, $e − 3x$, $2ex + 4$)
 
 Where u is the first type you come across in the expression, and v is the second.
