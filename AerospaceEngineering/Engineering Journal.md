@@ -3,7 +3,7 @@ layout: post
 title:  "Engineering Journal"
 ---
 
-# Areas of focus
+# Thoughts
 
 - Currently looking at refining and expaning my knowledge of ai models, differential equations and orbital mechanics.
     - Reading through the book Fundamentals of Astrodynamics.

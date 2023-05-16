@@ -276,3 +276,15 @@ $$
 - So term one is the mass flow, term two is the net flow in the x direction, term two is the net flow in the y direction and term 3 is the net flow in the z direction. We know all these need to sum to 0 because the need to balance for mass conservation.
 - This assumes incompressability so constant density $\rho$, the equation as first stated above considered compressible flow effects.
 
+
+# Supersonic Wind Tunnel Lab
+
+## In Report
+
+- Optical Path
+- Describe the aparatus
+- Uses Nitrogen
+    - Can be considered similar to the air
+    - Similar heat ratio to air (1.4)
+- Uses a convergent-divergent nozzle
+
