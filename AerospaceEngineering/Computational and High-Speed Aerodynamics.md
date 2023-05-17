@@ -288,3 +288,16 @@ $$
     - Similar heat ratio to air (1.4)
 - Uses a convergent-divergent nozzle
 
+
+# Shock Theory
+
+- A generator moving faster than or equal to the speed of sound will create a Mach Cone and Zone of silence.
+- The air in the zone of silence has no way of reacting to the supersonic flow.
+- The angle of the mach cone can be determined through simple geometry. The equation is outlined below:
+
+$$
+\sin {\mu} = 1 \over M
+$$
+
+Where, $\mu$ is the angle and M is the Mach number.
+
