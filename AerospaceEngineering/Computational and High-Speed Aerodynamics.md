@@ -228,6 +228,8 @@ $$
 
 # Shock Theory
 
+## Mach Waves
+
 - A generator moving faster than or equal to the speed of sound will create a Mach Cone and Zone of silence.
 - The air in the zone of silence has no way of reacting to the supersonic flow.
 - The angle of the mach cone can be determined through simple geometry. The equation is outlined below:
@@ -238,3 +240,44 @@ $$
 
 Where, $\mu$ is the angle and M is the Mach number
 
+# Shock Waves
+
+- The above is true if the generator is infintesimally small, however in many situation the generator could be a large bluff body, such as an aircraft. For these cases the true angel $\beta$ is greater that $\mu$.
+
+- In these cases we refer to it as a shock wave. These waves are much stronger than a Mach wave. 
+
+# Sonic Boom
+
+- A sonic boom is a common name for the sound created by shock and mach waves. 
+- It takes time to travel from the generator to an observer.
+
+# Normal Shock Waves
+- Shock line is perpendicular to the flow direction.
+- Normal shocks are very thin and so can be considered as a discontinuity.
+
+## Traits
+- Adiabatic
+- Not isentropic
+- The flow is always supersonic upstream of a shock and subsonic downstream of a shock.
+- $u_2 < u_1$
+- $P_2 > P_1$
+- $T_2 > T_1$
+- $\rho_2 > \rho_1$
+
+## Equations for Normal Shock Waves
+
+$$
+M_{2}^{2} = {{1 + ({{\gamma - 1} \over 2}) M_{1}^{2}} \over {\gamma M_{1}^{2} - ({{\gamma - 1} \over {2}}})}
+$$
+
+$$
+{\rho_2 \over \rho_1} = {u_1 \over u_2} = {{(\gamma + 1) M_{1}^{2}} \over {2 + (\gamma -1) M_{1}^{2}}}
+$$
+
+$$
+{P_2 \over P_1} = {1 + {{2 \gamma} \over {\gamma + 1}} (M^2_1 - 1)}
+$$
+
+$$
+{T_2 \over T_1} = {h_2 \over h_1} = {[{1 + {{2 \gamma} \over {\gamma + 1}} (M^2_1 - 1)}][{{{2 + (\gamma -1) M_{1}^{2}}}\over  {{(\gamma + 1) M_{1}^{2}}}} ]}
+$$
