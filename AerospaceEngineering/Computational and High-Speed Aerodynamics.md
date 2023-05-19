@@ -263,11 +263,12 @@ Where, $\mu$ is the angle and M is the Mach number
 - $P_2 > P_1$
 - $T_2 > T_1$
 - $\rho_2 > \rho_1$
+- $T_02 = T_01$, as it's adiabatic
 
 ## Equations for Normal Shock Waves
 
 $$
-M_{2}^{2} = {{1 + ({{\gamma - 1} \over 2}) M_{1}^{2}} \over {\gamma M_{1}^{2} - ({{\gamma - 1} \over {2}}})}
+M_{2}^{2} = {{1 + ({{\gamma - 1} \over 2}) M_{1}^{2}} \over {\gamma M_{1}^{2} - ({{\gamma - 1} \over {2}})}}
 $$
 
 $$
