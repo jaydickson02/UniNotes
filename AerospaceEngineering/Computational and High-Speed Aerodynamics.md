@@ -240,22 +240,22 @@ $$
 
 Where, $\mu$ is the angle and M is the Mach number
 
-# Shock Waves
+## Shock Waves
 
 - The above is true if the generator is infintesimally small, however in many situation the generator could be a large bluff body, such as an aircraft. For these cases the true angel $\beta$ is greater that $\mu$.
 
 - In these cases we refer to it as a shock wave. These waves are much stronger than a Mach wave. 
 
-# Sonic Boom
+## Sonic Boom
 
 - A sonic boom is a common name for the sound created by shock and mach waves. 
 - It takes time to travel from the generator to an observer.
 
-# Normal Shock Waves
+## Normal Shock Waves
 - Shock line is perpendicular to the flow direction.
 - Normal shocks are very thin and so can be considered as a discontinuity.
 
-## Traits
+### Traits
 - Adiabatic
 - Not isentropic
 - The flow is always supersonic upstream of a shock and subsonic downstream of a shock.
@@ -263,9 +263,10 @@ Where, $\mu$ is the angle and M is the Mach number
 - $P_2 > P_1$
 - $T_2 > T_1$
 - $\rho_2 > \rho_1$
-- $T_02 = T_01$, as it's adiabatic
+- $T_{02} = T_{01}$, as it's adiabatic
+- $P_{02} > P_{01}$, as it's not isentropic
 
-## Equations for Normal Shock Waves
+### Equations for Normal Shock Waves
 
 $$
 M_{2}^{2} = {{1 + ({{\gamma - 1} \over 2}) M_{1}^{2}} \over {\gamma M_{1}^{2} - ({{\gamma - 1} \over {2}})}}
@@ -282,3 +283,27 @@ $$
 $$
 {T_2 \over T_1} = {h_2 \over h_1} = {[{1 + {{2 \gamma} \over {\gamma + 1}} (M^2_1 - 1)}][{{{2 + (\gamma -1) M_{1}^{2}}}\over  {{(\gamma + 1) M_{1}^{2}}}} ]}
 $$
+
+## Expansion Waves/Fans
+
+- Occur when a supersonic flow is turned.
+
+### Traits
+- Adiabatic
+- Isentropic
+- $M_2 > M_1$
+- $P_2 < P_1$
+- $T_2 < T_1$
+- $\rho_2 > \rho_1$
+- $T_{02} = T_{01}$, as it's adiabatic
+- $P_{02} = P_{01}$, as it's isentropic
+
+An expansion fan is composed of an infinite number of Mach waves, bounded by:
+
+- The Mach angle of the upstream incoming flow: $\mu_1 = \sin^{-1} ({1 \over M_1})$
+- The Mach angle of the downstream flow: $\mu_2 = \sin^{-1} ({1 \over M_2})$
+
+### Equations for Expansion Waves
+
+
+
