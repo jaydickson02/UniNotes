@@ -269,7 +269,7 @@ Where, $\mu$ is the angle and M is the Mach number
 ### Equations for Normal Shock Waves
 
 $$
-M_{2}^{2} = {{1 + ({{\gamma - 1} \over 2}) M_{1}^{2}} \over {\gamma M_{1}^{2} - ({{\gamma - 1} \over {2}})}}
+M_{2}^{2} = {{1 + ( { { \gamma - 1} \over 2 } ) M_{1}^{2}} \over {\gamma M_{1}^{2} - ({{\gamma - 1} \over {2}}) } }
 $$
 
 $$
@@ -303,7 +303,7 @@ An expansion fan is composed of an infinite number of Mach waves, bounded by:
 - The Mach angle of the upstream incoming flow: $\mu_1 = \sin^{-1} ({1 \over M_1})$
 - The Mach angle of the downstream flow: $\mu_2 = \sin^{-1} ({1 \over M_2})$
 
-### Equations for Expansion Waves
+
 
 
 
